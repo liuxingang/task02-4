@@ -1,0 +1,277 @@
+*{margin:0;padding:0;}
+body
+{
+    font-size:12px;
+    background: #d8d8df;
+}
+.wrapper
+{
+    display:-webkit-flex;
+    width:1024px;
+    min-width:800px;
+    background:#ffffff;
+    margin:20px auto;
+    border:1px solid #808080;
+    padding:10px;
+}
+.con_left
+{
+    display:-webkit-flex;
+    -webkit-flex:1;
+    height:1500px;
+    margin-right: 10px;
+    -webkit-flex-direction:column;
+}
+.con_right
+{
+    display:-webkit-flex;
+    -webkit-flex:1;
+}
+.left_top
+{
+    height:100px;
+    -webkit-flex:1;
+    text-align: center;
+}
+.left_top img
+{
+    height:240px;
+}
+.left_middle
+{
+    display: -webkit-flex;
+    -webkit-flex:4;
+    height:100px;
+    -webkit-flex-direction:column;
+    text-align: center;
+}
+.sec1
+ {
+     -webkit-flex:2;
+ }
+.sec1 h1
+{
+    font-size:28px;
+    letter-spacing: 33px;
+   text-align: center;
+    text-indent: 27px;
+}
+.sec1 h2
+{
+    font-size:22px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec1 img
+{
+    width: 372px;
+    height:215px;
+    margin-left: 40px;
+}
+.sec1 span
+{
+    margin-left: 10px;
+    display:inline-block;
+    width:75px;
+    text-align: left;
+    height:200px;
+    letter-spacing: 1px;
+    -webkit-writing-mode:vertical-rl;
+}
+.sec2
+{
+    -webkit-flex:2;
+}
+.sec2 img
+{
+    margin-top: 30px;
+    width:372px;
+    margin-left: 40px;
+}
+.sec2 span
+{
+    display:inline-block;
+    width:75px;
+    text-align: left;
+    height:200px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    -webkit-writing-mode:vertical-rl;
+}
+.sec3
+{
+    text-align: left;
+    -webkit-flex:2;
+   -webkit-column-count: 2;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 30px;
+}
+.left_bottom
+{
+    display: -webkit-flex;
+    -webkit-flex:2;
+    height:100px;
+    -webkit-flex-direction:column;
+}
+.sec4
+{
+    -webkit-flex:2;
+}
+.sec4 h1
+{
+    margin-left: 35px;
+    font-size:28px;
+}
+.sec4 img
+{
+    width: 372px;
+    height:215px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sec4 span
+{
+    margin-left: 10px;
+    display:inline-block;
+    width:75px;
+    text-align: left;
+    height:200px;
+    letter-spacing: 1px;
+    -webkit-writing-mode:vertical-rl;
+}
+.sec5
+{
+    -webkit-flex:1;
+    -webkit-column-count: 2;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 30px;
+    height: 200px;
+}
+
+/*”“∞Î≤ø∑÷*/
+.con_right
+{
+    display: -webkit-flex;
+    -webkit-flex-direction:column;
+    text-align: left;
+}
+.right_top
+{
+    -webkit-flex:1;
+    margin-top: 20px;
+}
+.right_bottom
+{
+    -webkit-flex:9;
+}
+.sec6
+{
+    -webkit-flex:2;
+}
+.sec6 h1
+{
+    margin-left: 40px;
+    font-size:28px;
+    letter-spacing: 8px;
+}
+.sec6 img
+{
+    width: 450px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.sec6 p
+{
+    margin-top:10px;
+    margin-left:100px;
+}
+.sec7
+{
+    -webkit-flex:1;
+    -webkit-column-count: 2;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 30px;
+    text-align: left;
+}
+.sec8
+{
+    -webkit-flex:2;
+}
+.sec8 h1
+{
+    margin-left: 35px;
+    font-size:28px;
+}
+.sec8 img
+{
+    width: 372px;
+    height:215px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.sec8 span
+{
+    display:inline-block;
+    width:75px;
+    text-align: left;
+    height:210px;
+    letter-spacing: 1px;
+    -webkit-writing-mode:vertical-rl;
+}
+.sec9
+{
+    -webkit-flex:1;
+    -webkit-column-count: 2;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 30px;
+    text-align: left;
+}
+.sec10
+{
+    height:300px;
+    overflow: hidden;
+    display:-webkit-flex;
+    -webkit-flex-direction:column;
+    padding:10px 35px;
+}
+.sec10 .p1
+{
+    font-size:14px;
+    font-weight: bold;
+    margin:20px 0;
+}
+.sec10 .p1 span
+{
+    font-weight: normal;
+}
+.sec10 p:nth-child(1)
+{
+    -webkit-order:3;
+    order:3;
+}
+.sec10 p:nth-child(2)
+{
+    -webkit-order:5;
+    order:5;
+}
+.sec10 p:nth-child(3)
+{
+    -webkit-order:1;
+    order:1;
+}
+.sec10 p:nth-child(4)
+{
+    -webkit-order:2;
+    order:2;
+}
+.sec10 p:nth-child(5)
+{
+    -webkit-order:4;
+    order:4;
+}

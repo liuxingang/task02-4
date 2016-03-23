@@ -1,0 +1,43 @@
+*{margin:0;  padding:0;}
+/*标准盒模型*/
+.shoe
+{
+    width:100px;
+    height:100px;
+    background: #E03124;
+    text-align: center;
+    line-height: 100px;
+    color: #fcf6ff;
+}
+.shoebox
+{
+    margin: 100px;
+    padding:10px;
+    width:100px;
+    height:100px;
+    background: #b29800;
+    border:5px solid olivedrab;
+    box-shadow: 3px 3px 8px grey;
+}
+/*怪异盒模型*/
+.shoe1
+{
+    width:100px;
+    height:100px;
+    background: #E03124;
+    text-align: center;
+    line-height: 100px;
+    color: #fcf6ff;
+}
+.shoebox1
+{
+    margin-left: 100px;
+    margin-top: 50px;
+    padding:10px;
+    width:130px;
+    height:130px;
+    background: #b29800;
+    border:5px solid olivedrab;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 8px grey;
+}
